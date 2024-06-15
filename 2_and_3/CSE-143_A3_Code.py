@@ -497,7 +497,7 @@ main_predict('ner.dev', 'model.simple')  # Uncomment to predict on 'dev.ner' usi
 # In[ ]:
 
 
-get_ipython().system('cat "/content/gdrive/My Drive/CSE-143-A3/model" | awk \'{print $2, $1}\' | sort -gr > "/content/gdrive/My Drive/CSE-143-A3/model.sorted.txt"')
+#get_ipython().system('cat "/content/gdrive/My Drive/CSE-143-A3/model" | awk \'{print $2, $1}\' | sort -gr > "/content/gdrive/My Drive/CSE-143-A3/model.sorted.txt"')
 
 
 # The file `model.sorted.txt` will be viewable in your Google Drive folder.
